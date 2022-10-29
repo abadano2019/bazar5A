@@ -1,16 +1,25 @@
-
 import './sass/App.scss';
+import { UserLayout } from './components/UserLayout';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Category } from "./pages/Category";
+import { Detail } from "./pages/Detail";
 
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
-import Footer from './components/Footer';
 
 function App() {
+  
   return (
     <div className="App">
-        <NavBar />
-        <ItemListContainer greeting= "Bienvenido a Bazar 5A" />
-        <Footer />
+        <BrowserRouter>
+        <Routes>
+          <Route path={"/"} element={<UserLayout />}>
+            <Route index element={<Home />} />
+            <Route path={"/category/:categoryId"} element={<Category />} />
+            <Route path={"/product/:productId"} element={<Detail />} />
+            <Route path="/cart" element={<div>Cart</div>} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
