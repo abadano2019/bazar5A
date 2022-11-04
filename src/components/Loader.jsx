@@ -6,5 +6,5 @@ export const Loader = () => {
         
         return () => console.log("Se desmonto")
     },[])
-   return <span className="text-center">Cargando...</span>
+   return <span className="textCenter">Cargando...</span>
 }

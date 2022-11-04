@@ -8,7 +8,7 @@ import {useParams} from "react-router-dom";
 
 const ItemListContainer = () =>{
        
-    const {categoryId} = useParams();
+    const {categoryId, productId} = useParams();
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
   
@@ -19,20 +19,25 @@ const ItemListContainer = () =>{
         .then((items) =>{ setProductos(items); setLoading(false); })
         .catch((e) => console.log(e));
     }, [categoryId]);
+
+    useEffect(() => {
+      console.log("Deberia entrar en detalles")
+    }, [productId]);
   
     return (
-      <div className="products">
+      <div className="productsCards">
         {loading ? <Loader /> : null}
         {productos.map((producto) => {
           return (
             <Item
               key={producto.id}
               id={producto.id}
-              nombre={producto.titulo}
+              titulo={producto.titulo}
               categoria={producto.categoria}
               tag={producto.tag}
               precio={producto.precio}
-              imagen={producto.ima_src}
+              img_src={producto.img_src}
+              description = {producto.description}
             />
           );
         })}
