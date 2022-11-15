@@ -2,12 +2,13 @@ import ItemDetail from "./ItemDetail"
 import { useEffect, useState } from "react";
 import { getProduct } from "../api/products";
 import { Loader } from "./Loader";
-import {useParams} from "react-router-dom";
-
+import { useParams } from "react-router-dom";
+import { NotFoundPage} from "../pages/NotFoundPage"
 
 const desplegarItem = (producto) =>{
   return (
     <>
+      {!producto ? <NotFoundPage/> :   
       <ItemDetail
           key={producto.id}
           id={producto.id}
@@ -19,9 +20,9 @@ const desplegarItem = (producto) =>{
           description = {producto.description}
           stock={producto.stock}
           detalle={producto.detalle}
-          />
-    </>      
-  )
+      />    }
+    </>)      
+  
 }
 
 const ItemDetailContainer = () =>{
@@ -35,7 +36,9 @@ const ItemDetailContainer = () =>{
       setLoading(true);
       getProduct(productId)
         .then((product) =>{ setProducto(product); setLoading(false); })
-        .catch((e) => console.log(e));
+        .catch((e) => {
+          <NotFoundPage />
+          console.log(e)});
     }, [productId]);
   
     return (

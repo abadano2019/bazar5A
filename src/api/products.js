@@ -543,5 +543,6 @@ export const getProduct = (productId) =>
       setTimeout(() => {
         res(response);
       }, 3000);
-});
+})
+
   

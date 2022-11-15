@@ -2,7 +2,7 @@ import Item from "./Item"
 
 import { useEffect, useState } from "react";
 import { getProducts } from "../api/products";
-import { Loader } from "./Loader";
+import { Loader2 } from "./Loader2";
 import {useParams} from "react-router-dom";
 
 
@@ -26,7 +26,7 @@ const ItemListContainer = () =>{
   
     return (
       <div className="productsCards">
-        {loading ? <Loader /> : null}
+        {loading ? <Loader2 /> : null}
         {productos.map((producto) => {
           return (
             <Item

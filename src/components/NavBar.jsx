@@ -1,9 +1,13 @@
 import CartWidget from './CartWidget'
 import { Link, NavLink } from "react-router-dom";
+import { useCartContext } from '../context/cartContext';
 
 const links = ["Cocina", "Cristaleria", "Vajilla", "Electrodomesticos", "Hogar"];
 
 const NavBar = () =>{
+
+    const { cart,getCartQuantity } = useCartContext();
+    console.log(cart)
     return (
         <header className="header">
             <div className= "brand">
@@ -32,10 +36,10 @@ const NavBar = () =>{
                     );
                     })}
             </div>
-               
-            <div className = "header__buttons">
-                <Link to="/cart">Carrito</Link>
+            <div className = "header__cart">
+                <Link to="/cart" className='header__cart-link'>Carrito</Link>
                 <CartWidget/>
+                <span className="header__cart-cantidad">{getCartQuantity()}</span>
             </div>
         </header>
     )
