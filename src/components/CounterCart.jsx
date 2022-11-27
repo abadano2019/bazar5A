@@ -5,7 +5,6 @@ import SubstractWidget from "./SubstractWidget";
 
 const CounterCart = ({stock}) =>{
     
-    //const[contador, setContador] = useState(1);
     const[fecha, setFecha] = useState(null);
     const[mensaje, setMensaje] = useState(false);
     const {setCont, getContador, contador} = useCartContext();
@@ -13,11 +12,8 @@ const CounterCart = ({stock}) =>{
     const handleAdd = () =>{
       
       if (contador < stock){
-        //setContador(contador + 1);
-        console.log("sumo")
         setCont(contador + 1)
       }
-      console.log("contador sumado: " + contador)
       const date = new Date().toLocaleString();
       setFecha(date);
     }
@@ -25,17 +21,12 @@ const CounterCart = ({stock}) =>{
     const handleSubtract = () =>{
       
       if (contador > 1) {
-        //setContador(contador - 1)
-        console.log("resto")
         setCont(contador - 1);
-        console.log("contador restado:" + contador)
       }
-      
     }
 
     useEffect(()=>{
         if (contador >= 10) {setMensaje(true)}
-        //console.log("contador en Effect:" + contador)
     },[contador]
     )
 

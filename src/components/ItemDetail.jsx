@@ -3,15 +3,13 @@ import ItemDescriptionExt from './ItemDescriptionExt'
 import { useCartContext } from '../context/cartContext'
 import CounterCart from './CounterCart'
 import alert from '../js/alertas'
-import { useCounterContext } from '../context/counterContext'
 
 const ItemDetail = ({id, titulo, img_src,description, precio, categoria, tag, detalle, stock}) => {
 
     const count = 0;
     const {addProduct} = useCartContext();
     const { getContador } = useCartContext();
-    //const { getContador } = useCounterContext();
-
+    
     return (
         <div className="cardDetail" >
             <div className="cardDetail__left">

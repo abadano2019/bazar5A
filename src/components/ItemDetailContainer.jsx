@@ -1,9 +1,10 @@
 import ItemDetail from "./ItemDetail"
 import { useEffect, useState } from "react";
 import { getProduct } from "../api/products";
-import { Loader } from "./Loader";
+import { LoaderClock } from "./LoaderClock";
 import { useParams } from "react-router-dom";
-import { NotFoundPage} from "../pages/NotFoundPage"
+import { NotFoundPage} from "../pages/NotFoundPage";
+
 
 const desplegarItem = (producto) =>{
   return (
@@ -20,7 +21,7 @@ const desplegarItem = (producto) =>{
           description = {producto.description}
           stock={producto.stock}
           detalle={producto.detalle}
-      />    }
+      />}
     </>)      
   
 }
@@ -43,7 +44,7 @@ const ItemDetailContainer = () =>{
   
     return (
       <div className="productsCards">
-        {loading ? <Loader /> : desplegarItem(producto)}        
+        {loading ? <LoaderClock /> : desplegarItem(producto)}        
       </div>
     );
     

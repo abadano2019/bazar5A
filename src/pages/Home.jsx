@@ -1,5 +1,5 @@
-import '../sass/App.scss';
 import ItemListContainer from '../components/ItemListContainer';
+import '../sass/App.scss';
 
 export const Home = () => {
   return (

@@ -38,7 +38,9 @@ const NavBar = () =>{
             </div>
             <div className = "header__cart">
                 <Link to="/cart" className='header__cart-link'>Carrito</Link>
-                <CartWidget/>
+                <Link to="/cart">
+                    <CartWidget/>
+                </Link>
                 <span className="header__cart-cantidad">{getCartQuantity()}</span>
             </div>
         </header>

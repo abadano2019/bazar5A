@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 
 
-const Counter = ({stock, onAdd}) =>{
+const Counter = () =>{
     const[contador, setContador] = useState(0);
     const[fecha, setFecha] = useState(null);
     const[mensaje, setMensaje] = useState(false);
@@ -30,7 +30,6 @@ const Counter = ({stock, onAdd}) =>{
             <button onClick = {()=>handleSubtract()}>Restar</button>
         </div>
     )
-
 }
 
 export default  Counter;

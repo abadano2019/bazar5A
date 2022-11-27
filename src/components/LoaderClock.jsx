@@ -1,7 +1,7 @@
 /* import { ClockLoader } from "react-spinners"; */
 import ClockLoader from "react-spinners/ClockLoader";
 
-export const Loader2 = () => {
+export const LoaderClock = () => {
     
   return (
     <div className="loader__style">
@@ -18,4 +18,4 @@ export const Loader2 = () => {
     
 }
 
-export default Loader2;
+export default LoaderClock;

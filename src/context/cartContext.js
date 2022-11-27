@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 const CartContext = createContext([]);
 
@@ -7,6 +7,7 @@ export const useCartContext = () => useContext(CartContext);
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [contador, setContador] = useState(1);
+  const [envio, setEnvio] = useState(5);
 
   const removeProduct = (id) => {
     const newCart = cart.filter((product) => product.id !== id);
@@ -33,8 +34,10 @@ export const CartProvider = ({ children }) => {
     setContador(1);
   };
 
-  const getTotal = () => cart.reduce((acc, product) => acc + product.precio * product.qty ,0)
-
+  const getTotal = () => cart.reduce((acc, product) => acc + product.precio * product.cantidad ,0)
+  const getIva = () => getTotal() * 0.22;
+  const getEnvio = () => envio;
+  const getTotalCompra = () => getTotal() + getIva() + getEnvio();
   const getCartQuantity = () => cart.reduce((acc,product) => acc + product.cantidad , 0);
 
   const setCont = (count) =>{
@@ -44,6 +47,9 @@ export const CartProvider = ({ children }) => {
   const getContador = () => {
     return contador;
   }
+
+  const emptyCart = () => setCart([])
+  
   
   const value = {
     cart,
@@ -51,9 +57,13 @@ export const CartProvider = ({ children }) => {
     removeProduct,
     getCartQuantity,
     getTotal,
+    getIva,
+    getEnvio,
+    getTotalCompra,
     contador,
     setCont,
     getContador,
+    emptyCart
   };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;

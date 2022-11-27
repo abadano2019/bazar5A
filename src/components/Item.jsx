@@ -18,7 +18,7 @@ const Item = ({id, titulo, img_src,description, precio, categoria, tag}) => {
                 <span className="card__name">{titulo}</span>
                 <span className="card__category">Categoría: {categoria}</span>
                 <Tag descripcion = {description} titulo={tag}  />
-                <button onClick={(e) => {
+                <button className="card__button" onClick={(e) => {
                     e.stopPropagation();
                     addProduct({id, titulo, img_src,description, precio, categoria, tag}, 1)
                     alert.alertaMensajeAnimado("Producto agregado !!!!", "success")    
