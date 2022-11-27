@@ -1,4 +1,4 @@
-import NavBSar from "./NavBar";
+import NavBar from "./NavBar";
 import Footer from "./Footer";
 import {Outlet} from 'react-router-dom';
 
@@ -12,7 +12,7 @@ export const UserLayout = () => {
         justifyContent: "space-between",
       }}
     >
-      <NavBSar />
+      <NavBar />
       <Outlet />
       <Footer />
     </div>

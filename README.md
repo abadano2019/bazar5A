@@ -1,341 +1,188 @@
-# BAZAR 5A
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="./public/logo5A.png" alt="Logo" width="80" height="80">
+    <p> E-COMMERCE BAZAR 5A </p>
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Introducción
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+El sitio Bazar 5A surge como un proyecto familiar en donde se vuelcan muchos años de experiencia en venta de articulos de Bazar. Consta de varias secciones como ser cristalería, electrodomésticos, cocina, vajilla entre otros, pudiendo adaptarse a las necesidades del mercado. Dentro de las funcionalidades un cliente puede ingresar a la pagina, navegar entre las opciones disponibles, seleccionar un producto, ver los detalles particulares del producto, agregarlo al carrito de compra
 
-El sitio Bazar 5A surge como un proyecto familiar en donde se vuelcan muchos años de experiencia en venta de articulos de Bazar. Consta de varias secciones como ser cristalería, electrodomésticos, cocina, vajilla entre otros, pudiendo adaptarse a las necesidades del mercado. Funcionalmente un potencial cliente puede ingresar a la pagina, navegar entre las opciones disponibles, seleccionar un producto, ver los detalles particulares del producto, agregarlo al carrito de compra
+### Tecnologias utilizadas
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Dentro del amplio abanico de tecnologías disponibles para el desarrollo de la aplicación se utilizaron:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+##### * React
+##### * Java Script
+##### * Boostrap
+##### * Sass
+##### * Firebase
+##### * React-Icons
+##### * React-spinners
+##### * SweetAlert
 
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+React como herramienta base para la elaboración de la aplicación, Java Script para todo lo relacionado a lógica de decisión, Boostrap se eligió como framework para el armado de componentes, SASS para los estilos, Firebase se utilizó como repositorio y como base de datos, React-Icons para la utilización de iconos, react-spinners para la utilización de loaders y sweetalert para la presentación de mensajes por pantalla.
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Instalación
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+A continución se presentan instrucciónes para la utilización de la aplicación de forma local.
 
-### Prerequisites
+### Requisitos previos
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Se recomienda el uso de Visual Studio Code para la visualización y administración del codigo, se debe tener instalado Node JS, en caso de querer utilizar información personal, se debe utilizar una cuenta de gmail para la configuración de firebase.
 
-### Installation
+### Pasos a seguir
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+A continuación se marcan los pasos para poder utilizar la aplicación con datos propios.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Configurar la base de datos en firebase con los siguiente campos en una colección con el nombre items la cual es necesaria para la carga de información de los productos:
+ * categoria: string (corresponde a la categoría del producto para luego utilizar como filtro)
+ * descripcion: string (descripción del producto ofrecido)
+ * detalle: string (detalle del producto ofrecido)
+ * img_src: string (url de la imagen del producto pude ser desde internet o como en el caso del proyecto desde el storage de firebase)
+ * precio: numero (precio del producto ofrecido)
+ * stock: numero (cantidad de productos disponibles)
+ * tag: string (información particular y especifica del producto)
+ * titulo: string (Titulo o nombre del producto ofrecido)
+
+
+
+
+
+2. Clonar o descargar el repositorio, antes de ejecutar este comando debe posicionarse en la carpeta donde desea clonar el repositorio
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/abadano2019/bazar5A.git
    ```
-3. Install NPM packages
+3. Instalar NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+4. En caso de querer utilizar una base de datos propia ingresar los datos proporcionados por firebase en el archivo `config.js`
+  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Estructura de carpetas
 
+Dentro de la carpeta src tenemos la siguiente esctrucutra, una carpeta api con los archivos necesarios para la conexión a la base de datos, una carpeta components donde se encuentran los archivos jsx, componentes a renderizar, una carpeta context en la cual tenemos creado un archivo con el contexto del carrito, una carpeta js para clases varias en este caso tenemos la clase alertas.js para la utilización de alertas de sweetalerts, una carpeta pages con las páginas disponibles de la aplicación, una carpeta sass con el archivo App.sass con todos los estilos.
 
+#### api
+Dentro de la carpeta api tenemos los siguientes archivos:
+* config.js: archivo que contiene la información necesaria para la conexión con firebase, en el se utilizan variables de entorno las cuales toman la información del archivo .env 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+* products.js: archivo que contiene la logica necesaria para poder realizar las consultas a la base de datos sobre la colección de productos (items)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+* order.js: archivo que contiene la logica necesaria para poder realizar las consultas a la base de datos sobre la colección de ordenes (orders)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+#### Components
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* AddWidget.jsx: componente que contiene un icono con el simbolo de +.
+* SubstractWidget.jsx: componente que contiene un icono con el simbolo de -.
+* CartWidget.jsx: compoente que contiene un icono con un carrito de compras. 
+* CounterCart.jsx: componente que basicamente suma y resta una variable controlando que no exceda un stock dado por parametro y que no sea menor o igual a cero. Es utilizado para el detalle de los productos para poder agregar una cantidad determinada de productos al carrito.
+* Footer.jsx: componente que renderiza los datos del footer del sitio
+* FormCompra.jsx: componente encargado de cargar la orden de compra de un cliente a la base de datos, el formulario solicita el nombre, apellido, teléfono, email y email de verificación del cliente, por intermedio del contexto del carrito también se toman los datos de los productos para cargar a la base de datos. La colección utilizada tiene el nombre de orders y en caso de estar vacia se crea. El formulario es modal, el botón de confirmar compra no se activa hasta que no tenga todos los datos completos, en caso de que los campos Email y verificar Email sale un mensaje de error como que los mismos no coinciden, tembién se controla el formato de texto ingresado para el email por intermedio de expresiones regulares.
+* Item.jsx: componente encargado de desplegar información de forma visual de los productos cargados en la base de datos. La información se despliega dentro de cards en las paginas de categorias y home.
+* ItemDescriptionExt.jsx: componente encargado de presentar información extendida de los productos, es utilizado por el componente ItemDetail.jsx
+* ItemDetail.jsx: componente encargado de presentar de forma detallada las caracteristicas de un producto, similar al componente Item.jsx pero con más información, con el componente counterCart y desplegando la información en toda la pantalla.
+* ItemDetailContainer.jsx: componente encargado de presentar el compontente itemDetail.jsx, previo a la validación de la existencia del mismo, en caso contrario mostrará un mensaje de error 404, también presenta el componete LoaderClock para mostrar el procesamiento de información.
+* ItemListContainer.jsx: componente encargado de pedir y recibir la información de la base de datos, en caso de ser utilizado por la pagina home recibe toda la información y en caso de ser llamado por la pagina Category recibe y muestra la información para una categoría particular.
+* Loader.jsx: componente que despliega la leyenda cargando..., con el fin de mostrar el procesamiento de información.
+* LoarderClock.jsx: componete similar al componente Loader.jsx con la diferencia que en este se muestra un reloj con sus ajujas girando.
+* NavBar.jsx: componente encargado de presentar el header de la aplicación, la barra superior con sus links incluyendo icono de la pagina y el icono del carrigo.
+* Tag.jsx: componente encargado de mostrar una breve información y muy especifica del producto. Es utilizado por el componente Item.jsx.
+* UserLayout.jsx: componente para la utilización del componente Route
 
+#### Context
 
+Con el fin de poder mostrar la cantidad de elementos que tiene el carro de compras de una forma más simple y evitando el flujo de datos entre compontes es que se utiliza un contexto para el carro de compras. Cada vez que se agrega un elemento al carrito de compras se utiliza el contexto para agregarlo al pedido final. Además el contexto del carro cuenta con el calculo del precio total, el iva de la compra total, el precio del envio y el total de la compra.
+
+#### js
+En esta carpeta se presenta un archivo el cual implemente la biblioteca de sweetAlert para poder mostrar mensajes de forma modal por pantalla. Se implementan dos formas posibles de presentar mensajes, una de forma animada el cual recibe por parametro el mensaje a mostrar y el icono que se desea ejemplo: error, sucess, warning y otro simple que solo muestar el mensaje que se desea mostrar.  
+
+#### pages 
+En esta carpeta contamos con las paginas que la oplicación utiliza:
+* Home.jsx: encargada de mostrar el componente ItemListConteiner.jsx el cual contendrá todos los productos de la base de datos
+* Category.jsx: encargada de mostra el componente ItemDetailConteiner.jsx el cual contndrá todos los productos de la base de datos de una categoría particular.
+* Detail.jsx: encargada de mostrar los detalles de un producto en particular, para este caso se utiliza el componente ItemDetailConteiner.jsx.
+* NotFoundPage.jsx: encargada de mostrar un mensaje de error 404 en caso de no encontrar un producto.
+* Cart.jsx: encargada de desplegar por pantalla todos los elementos del carrito además de mostrar el subtotal, el iva sobre el subtotal, el costo del envío y el total de la compra, desde esta pagina se llama al formulario el cual solicita los datos del cliente para poder terminar la compra. Al confirmar la compra el cliente recibe por pantalla el nro de pedido correspondiente al id de la orden de compra cargada en la base de datos.
+
+#### sass 
+La carpeta sass cuenta con un archivo App.sass el cual contiene todos los estilos de la aplicación
+
+### Otros archivos
+
+#### App.js
+Contiene la estructura de ruteo de la aplicación y se define el contexto del contexto del carrito de compras.
+
+#### .env
+Contiene las variables de entorno necesarias para el funcionamiento de la aplicación, las variables de conexión con la base firebase las cuales deberán ser seteadas.
 
 <!-- ROADMAP -->
-## Roadmap
+## Mejoras
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+Esta es una primera versión del proyecto Bazar5A, en el cual quedan para definir en un nuevo alcance otras funcionalidades como ser:
+* Modificar la cantidad de elementos de un producto en el carrito
+* Eliminar un producto del carrito desde la pagina de despliege de los datos de carrito, se presentan los botones pero no la logica para poder realizarlo.
+* Generar nueva vista para ver el historial de ordenes de un cliente
+* Hostear la aplicación en el servicio de hosting de firebase
+* Implementar algun servicio de autenticación
+* Generar nuevas colecciones en la base de datos como una lista de productos deseados o favoritos.
+* Agregar más detalles a los productos, como ser un carrusel de otras imagenes. (se debe contar con un catalogo de imagenes para el producto.)
+* Generar las validaciones necesarias del stock disponible en la base de datos.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+entre otras cosas
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+# ANEXO
 
+Proyecto desarrollado utilizando React JS [Create React App](https://github.com/abadano2019/bazar5A).
 
+## Comandos disponibles
 
-<!-- CONTRIBUTING -->
-## Contributing
+### `npm start`
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Desde una terminal donde se esté ubicado en la raiz del proyecto se puede iniciar la aplicación ejecutando el comando npm start
+Se ejecuta en la siguiente url: [http://localhost:3000](http://localhost:3000).
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Previo a la ejecución de la app se deben instalar las dependencias del proyecto.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### `npm install`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Ejecute el comando npm install para instalar todas las dependencias del archivo node_modules del proyecto.
 
+### `npm test`
 
+Para ejecutar el modo iterativo de ejecución (test) ejecutar npm test
+Para mayor información dirigirse a la siguiente pagina: [running tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
-<!-- LICENSE -->
-## License
+### `npm run build`
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Para generar un ejecutable para subir a producción ejecute el comando npm run build
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Para mayor información dirigirse a la siguiente pagina: [deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
+## Learn More
+
+Si desea aprender sobre React JS dirijase a los siguientes links: 
+
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[React documentation](https://reactjs.org/).
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Ariel Badano - abadano05@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [https://github.com/abadano2019/bazar5A](https://github.com/abadano2019/bazar5A)
 
 
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
